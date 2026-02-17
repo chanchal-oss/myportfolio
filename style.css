@@ -2,6 +2,76 @@
 * {
     text-align: center;
 }
+/* ===== Education Section ===== */
+
+#education {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#education h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #333;
+    position: relative;
+}
+
+.education-card {
+    max-width: 500px;
+    margin: auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.education-card h3 {
+    font-size: 24px;
+    color: #b87333;
+    margin-bottom: 15px;
+}
+
+.education-card p {
+    font-size: 16px;
+    color: #444;
+    margin: 6px 0;
+}
+
+.education-card strong {
+    color: #000;
+}
+
+/* Marksheet Image */
+.marksheet-img {
+    width: 260px;
+    margin-top: 18px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.marksheet-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 18px rgba(0,0,0,0.2);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .education-card {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .marksheet-img {
+        width: 100%;
+    }
+}
 
 .all {
     background-color: #aa968a;
@@ -377,4 +447,5 @@ nav ul li a:hover {
         opacity: 1;
         transform: translateY(0);
     }
+
 }
